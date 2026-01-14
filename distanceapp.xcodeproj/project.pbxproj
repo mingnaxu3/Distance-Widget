@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8F0D55E02EFA4E250050068F /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 8F0D55DF2EFA4E250050068F /* FirebaseFirestore */; };
+		8F381E752EFCE18900B0306D /* FirebaseCore in Frameworks */ = {isa = PBXBuildFile; productRef = 8F381E742EFCE18900B0306D /* FirebaseCore */; };
+		8F381E7C2EFCEBAA00B0306D /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F381E7B2EFCEBAA00B0306D /* WidgetKit.framework */; };
+		8F381E7E2EFCEBAA00B0306D /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F381E7D2EFCEBAA00B0306D /* SwiftUI.framework */; };
+		8F381E8D2EFCEBAE00B0306D /* distanceWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 8F381E7A2EFCEBAA00B0306D /* distanceWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		8F54AD312EFF8B7E008E6DC3 /* AbhayaLibre-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2E2EFF8B7E008E6DC3 /* AbhayaLibre-Regular.ttf */; };
+		8F54AD322EFF8B7E008E6DC3 /* AbhayaLibre-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2C2EFF8B7E008E6DC3 /* AbhayaLibre-ExtraBold.ttf */; };
+		8F54AD332EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2D2EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf */; };
+		8F54AD342EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2F2EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf */; };
+		8F54AD352EFF8B7E008E6DC3 /* AbhayaLibre-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2B2EFF8B7E008E6DC3 /* AbhayaLibre-Bold.ttf */; };
+		8F54AD362EFF8B7E008E6DC3 /* AbhayaLibre-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2E2EFF8B7E008E6DC3 /* AbhayaLibre-Regular.ttf */; };
+		8F54AD372EFF8B7E008E6DC3 /* AbhayaLibre-ExtraBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2C2EFF8B7E008E6DC3 /* AbhayaLibre-ExtraBold.ttf */; };
+		8F54AD382EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2D2EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf */; };
+		8F54AD392EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2F2EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf */; };
+		8F54AD3A2EFF8B7E008E6DC3 /* AbhayaLibre-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2B2EFF8B7E008E6DC3 /* AbhayaLibre-Bold.ttf */; };
+		8F8089432F00D0F700A1B1EE /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8089422F00D0F700A1B1EE /* GoogleService-Info (1).plist */; };
+		8F8089442F00D0F700A1B1EE /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8089422F00D0F700A1B1EE /* GoogleService-Info (1).plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8F381E8B2EFCEBAE00B0306D /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8F0D55AB2EFA34830050068F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8F381E792EFCEBAA00B0306D;
+			remoteInfo = distanceWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		8F381E922EFCEBAE00B0306D /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				8F381E8D2EFCEBAE00B0306D /* distanceWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		8F0D55B32EFA34830050068F /* distanceapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = distanceapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F381E7A2EFCEBAA00B0306D /* distanceWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = distanceWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		8F381E7B2EFCEBAA00B0306D /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		8F381E7D2EFCEBAA00B0306D /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		8F381E942EFCF1DD00B0306D /* distanceWidgetExtension.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = distanceWidgetExtension.entitlements; sourceTree = "<group>"; };
+		8F54AD2B2EFF8B7E008E6DC3 /* AbhayaLibre-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-Bold.ttf"; sourceTree = "<group>"; };
+		8F54AD2C2EFF8B7E008E6DC3 /* AbhayaLibre-ExtraBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-ExtraBold.ttf"; sourceTree = "<group>"; };
+		8F54AD2D2EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-Medium.ttf"; sourceTree = "<group>"; };
+		8F54AD2E2EFF8B7E008E6DC3 /* AbhayaLibre-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-Regular.ttf"; sourceTree = "<group>"; };
+		8F54AD2F2EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-SemiBold.ttf"; sourceTree = "<group>"; };
+		8F8089422F00D0F700A1B1EE /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8F381E8E2EFCEBAE00B0306D /* Exceptions for "distanceWidget" folder in "distanceWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 8F381E792EFCEBAA00B0306D /* distanceWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		8F0D55B52EFA34830050068F /* distanceapp */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = distanceapp;
+			sourceTree = "<group>";
+		};
+		8F0D55C12EFA379D0050068F /* location */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = location;
+			sourceTree = "<group>";
+		};
+		8F0D55D22EFA41C10050068F /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		8F0D55D62EFA422F0050068F /* Firebase */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Firebase;
+			sourceTree = "<group>";
+		};
+		8F0D55DA2EFA44F00050068F /* ViewModel */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		8F381E7F2EFCEBAA00B0306D /* distanceWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				8F381E8E2EFCEBAE00B0306D /* Exceptions for "distanceWidget" folder in "distanceWidgetExtension" target */,
+			);
+			path = distanceWidget;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8F0D55B02EFA34830050068F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F381E752EFCE18900B0306D /* FirebaseCore in Frameworks */,
+				8F0D55E02EFA4E250050068F /* FirebaseFirestore in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F381E772EFCEBAA00B0306D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F381E7E2EFCEBAA00B0306D /* SwiftUI.framework in Frameworks */,
+				8F381E7C2EFCEBAA00B0306D /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8F0D55AA2EFA34830050068F = {
+			isa = PBXGroup;
+			children = (
+				8F381E942EFCF1DD00B0306D /* distanceWidgetExtension.entitlements */,
+				8F0D55DA2EFA44F00050068F /* ViewModel */,
+				8F0D55D62EFA422F0050068F /* Firebase */,
+				8F0D55D22EFA41C10050068F /* Models */,
+				8F0D55C12EFA379D0050068F /* location */,
+				8F0D55B52EFA34830050068F /* distanceapp */,
+				8F381E7F2EFCEBAA00B0306D /* distanceWidget */,
+				8F0D55B42EFA34830050068F /* Products */,
+				8F0D55DE2EFA4E250050068F /* Frameworks */,
+				8F54AD302EFF8B7E008E6DC3 /* abhaya-libre-2 */,
+				8F8089422F00D0F700A1B1EE /* GoogleService-Info (1).plist */,
+			);
+			sourceTree = "<group>";
+		};
+		8F0D55B42EFA34830050068F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8F0D55B32EFA34830050068F /* distanceapp.app */,
+				8F381E7A2EFCEBAA00B0306D /* distanceWidgetExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8F0D55DE2EFA4E250050068F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8F381E7B2EFCEBAA00B0306D /* WidgetKit.framework */,
+				8F381E7D2EFCEBAA00B0306D /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8F54AD302EFF8B7E008E6DC3 /* abhaya-libre-2 */ = {
+			isa = PBXGroup;
+			children = (
+				8F54AD2B2EFF8B7E008E6DC3 /* AbhayaLibre-Bold.ttf */,
+				8F54AD2C2EFF8B7E008E6DC3 /* AbhayaLibre-ExtraBold.ttf */,
+				8F54AD2D2EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf */,
+				8F54AD2E2EFF8B7E008E6DC3 /* AbhayaLibre-Regular.ttf */,
+				8F54AD2F2EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf */,
+			);
+			path = "abhaya-libre-2";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8F0D55B22EFA34830050068F /* distanceapp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F0D55BE2EFA34850050068F /* Build configuration list for PBXNativeTarget "distanceapp" */;
+			buildPhases = (
+				8F0D55AF2EFA34830050068F /* Sources */,
+				8F0D55B02EFA34830050068F /* Frameworks */,
+				8F0D55B12EFA34830050068F /* Resources */,
+				8F381E922EFCEBAE00B0306D /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8F381E8C2EFCEBAE00B0306D /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				8F0D55B52EFA34830050068F /* distanceapp */,
+				8F0D55C12EFA379D0050068F /* location */,
+				8F0D55D22EFA41C10050068F /* Models */,
+				8F0D55D62EFA422F0050068F /* Firebase */,
+				8F0D55DA2EFA44F00050068F /* ViewModel */,
+			);
+			name = distanceapp;
+			packageProductDependencies = (
+				8F0D55DF2EFA4E250050068F /* FirebaseFirestore */,
+				8F381E742EFCE18900B0306D /* FirebaseCore */,
+			);
+			productName = distanceapp;
+			productReference = 8F0D55B32EFA34830050068F /* distanceapp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8F381E792EFCEBAA00B0306D /* distanceWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8F381E8F2EFCEBAE00B0306D /* Build configuration list for PBXNativeTarget "distanceWidgetExtension" */;
+			buildPhases = (
+				8F381E762EFCEBAA00B0306D /* Sources */,
+				8F381E772EFCEBAA00B0306D /* Frameworks */,
+				8F381E782EFCEBAA00B0306D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				8F381E7F2EFCEBAA00B0306D /* distanceWidget */,
+			);
+			name = distanceWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = distanceWidgetExtension;
+			productReference = 8F381E7A2EFCEBAA00B0306D /* distanceWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8F0D55AB2EFA34830050068F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					8F0D55B22EFA34830050068F = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					8F381E792EFCEBAA00B0306D = {
+						CreatedOnToolsVersion = 16.4;
+					};
+				};
+			};
+			buildConfigurationList = 8F0D55AE2EFA34830050068F /* Build configuration list for PBXProject "distanceapp" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8F0D55AA2EFA34830050068F;
+			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				8F0D55C72EFA3DDC0050068F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 8F0D55B42EFA34830050068F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8F0D55B22EFA34830050068F /* distanceapp */,
+				8F381E792EFCEBAA00B0306D /* distanceWidgetExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8F0D55B12EFA34830050068F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F54AD362EFF8B7E008E6DC3 /* AbhayaLibre-Regular.ttf in Resources */,
+				8F54AD372EFF8B7E008E6DC3 /* AbhayaLibre-ExtraBold.ttf in Resources */,
+				8F54AD382EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf in Resources */,
+				8F54AD392EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf in Resources */,
+				8F54AD3A2EFF8B7E008E6DC3 /* AbhayaLibre-Bold.ttf in Resources */,
+				8F8089432F00D0F700A1B1EE /* GoogleService-Info (1).plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F381E782EFCEBAA00B0306D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F54AD312EFF8B7E008E6DC3 /* AbhayaLibre-Regular.ttf in Resources */,
+				8F54AD322EFF8B7E008E6DC3 /* AbhayaLibre-ExtraBold.ttf in Resources */,
+				8F54AD332EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf in Resources */,
+				8F54AD342EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf in Resources */,
+				8F54AD352EFF8B7E008E6DC3 /* AbhayaLibre-Bold.ttf in Resources */,
+				8F8089442F00D0F700A1B1EE /* GoogleService-Info (1).plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8F0D55AF2EFA34830050068F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8F381E762EFCEBAA00B0306D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8F381E8C2EFCEBAE00B0306D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8F381E792EFCEBAA00B0306D /* distanceWidgetExtension */;
+			targetProxy = 8F381E8B2EFCEBAE00B0306D /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		8F0D55BC2EFA34850050068F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8F0D55BD2EFA34850050068F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8F0D55BF2EFA34850050068F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = distanceapp/distanceapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DC43BEU6R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to calculate the distance between you and your partner";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingna.distanceapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F0D55C02EFA34850050068F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = distanceapp/distanceapp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DC43BEU6R;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "Your location is used to calculate the distance between you and your partner";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingna.distanceapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8F381E902EFCEBAE00B0306D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = distanceWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DC43BEU6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = distanceWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = distanceWidget;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingna.distanceapp.distanceWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8F381E912EFCEBAE00B0306D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_ENTITLEMENTS = distanceWidgetExtension.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 8DC43BEU6R;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = distanceWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = distanceWidget;
+				INFOPLIST_KEY_LSApplicationCategoryType = "";
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.mingna.distanceapp.distanceWidget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8F0D55AE2EFA34830050068F /* Build configuration list for PBXProject "distanceapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0D55BC2EFA34850050068F /* Debug */,
+				8F0D55BD2EFA34850050068F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F0D55BE2EFA34850050068F /* Build configuration list for PBXNativeTarget "distanceapp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F0D55BF2EFA34850050068F /* Debug */,
+				8F0D55C02EFA34850050068F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8F381E8F2EFCEBAE00B0306D /* Build configuration list for PBXNativeTarget "distanceWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8F381E902EFCEBAE00B0306D /* Debug */,
+				8F381E912EFCEBAE00B0306D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		8F0D55C72EFA3DDC0050068F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.7.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		8F0D55DF2EFA4E250050068F /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F0D55C72EFA3DDC0050068F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		8F381E742EFCE18900B0306D /* FirebaseCore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 8F0D55C72EFA3DDC0050068F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseCore;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = 8F0D55AB2EFA34830050068F /* Project object */;
+}
