@@ -21,7 +21,7 @@ func placeholder(in context: Context) -> DistanceEntry {
 
 
 func getSnapshot(in context: Context, completion: @escaping (DistanceEntry) -> ()) {
-    let sharedDistance = UserDefaults(suiteName: "group.com.mingna.distanceapp")
+    let sharedDistance = UserDefaults(suiteName: "group.com.mingna.distanceappnew")
     let dist = sharedDistance?.double(forKey: "distanceMiles") ?? 0
     
     let entry = DistanceEntry(date: Date(), distanceMiles: dist)
@@ -30,7 +30,7 @@ func getSnapshot(in context: Context, completion: @escaping (DistanceEntry) -> (
 
 
 func getTimeline(in context: Context, completion: @escaping (Timeline<DistanceEntry>) -> ()) {
-    let sharedDefaults = UserDefaults(suiteName: "group.com.mingna.distanceapp")
+    let sharedDefaults = UserDefaults(suiteName: "group.com.mingna.distanceappnew")
     let distance = sharedDefaults?.double(forKey: "distanceMiles")
 
 
