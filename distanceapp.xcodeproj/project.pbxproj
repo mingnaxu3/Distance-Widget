@@ -22,8 +22,8 @@
 		8F54AD382EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2D2EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf */; };
 		8F54AD392EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2F2EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf */; };
 		8F54AD3A2EFF8B7E008E6DC3 /* AbhayaLibre-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 8F54AD2B2EFF8B7E008E6DC3 /* AbhayaLibre-Bold.ttf */; };
-		8F8089432F00D0F700A1B1EE /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8089422F00D0F700A1B1EE /* GoogleService-Info (1).plist */; };
-		8F8089442F00D0F700A1B1EE /* GoogleService-Info (1).plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8089422F00D0F700A1B1EE /* GoogleService-Info (1).plist */; };
+		8F8089432F00D0F700A1B1EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8089422F00D0F700A1B1EE /* GoogleService-Info.plist */; };
+		8F8089442F00D0F700A1B1EE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8F8089422F00D0F700A1B1EE /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -61,10 +61,17 @@
 		8F54AD2D2EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-Medium.ttf"; sourceTree = "<group>"; };
 		8F54AD2E2EFF8B7E008E6DC3 /* AbhayaLibre-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-Regular.ttf"; sourceTree = "<group>"; };
 		8F54AD2F2EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "AbhayaLibre-SemiBold.ttf"; sourceTree = "<group>"; };
-		8F8089422F00D0F700A1B1EE /* GoogleService-Info (1).plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info (1).plist"; sourceTree = "<group>"; };
+		8F8089422F00D0F700A1B1EE /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		8F0FFC022F17399E0011D964 /* Exceptions for "distanceWidget" folder in "distanceapp" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Assets.xcassets,
+			);
+			target = 8F0D55B22EFA34830050068F /* distanceapp */;
+		};
 		8F381E8E2EFCEBAE00B0306D /* Exceptions for "distanceWidget" folder in "distanceWidgetExtension" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
@@ -103,6 +110,7 @@
 		8F381E7F2EFCEBAA00B0306D /* distanceWidget */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
+				8F0FFC022F17399E0011D964 /* Exceptions for "distanceWidget" folder in "distanceapp" target */,
 				8F381E8E2EFCEBAE00B0306D /* Exceptions for "distanceWidget" folder in "distanceWidgetExtension" target */,
 			);
 			path = distanceWidget;
@@ -145,7 +153,7 @@
 				8F0D55B42EFA34830050068F /* Products */,
 				8F0D55DE2EFA4E250050068F /* Frameworks */,
 				8F54AD302EFF8B7E008E6DC3 /* abhaya-libre-2 */,
-				8F8089422F00D0F700A1B1EE /* GoogleService-Info (1).plist */,
+				8F8089422F00D0F700A1B1EE /* GoogleService-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -285,7 +293,7 @@
 				8F54AD382EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf in Resources */,
 				8F54AD392EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf in Resources */,
 				8F54AD3A2EFF8B7E008E6DC3 /* AbhayaLibre-Bold.ttf in Resources */,
-				8F8089432F00D0F700A1B1EE /* GoogleService-Info (1).plist in Resources */,
+				8F8089432F00D0F700A1B1EE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +306,7 @@
 				8F54AD332EFF8B7E008E6DC3 /* AbhayaLibre-Medium.ttf in Resources */,
 				8F54AD342EFF8B7E008E6DC3 /* AbhayaLibre-SemiBold.ttf in Resources */,
 				8F54AD352EFF8B7E008E6DC3 /* AbhayaLibre-Bold.ttf in Resources */,
-				8F8089442F00D0F700A1B1EE /* GoogleService-Info (1).plist in Resources */,
+				8F8089442F00D0F700A1B1EE /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
